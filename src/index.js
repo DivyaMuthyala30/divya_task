@@ -4,11 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import AppRoutes from './Routes';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import AppRouters from './NestedRouters';
+import Data from './Components/DynamicRouting/Data';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppRoutes />
+    {/* <AppRoutes/> */}
+    {/* <AppRouters /> */}
+    <Data/>
   </React.StrictMode>
 );
 
